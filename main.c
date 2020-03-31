@@ -4,7 +4,7 @@
 #include "sorts.c"
 #include "utils.c"
 
-#define SIZE 1000
+#define SIZE 10000
 
 int main() {
 	int elements[SIZE];
