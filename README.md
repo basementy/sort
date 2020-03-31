@@ -7,7 +7,7 @@ O principal objetivo desse projeto é desenvolver 5 tipos de Sort's diferentes, 
 
 #### Registros
 
-A planilha com os registros de tempo e análise pode ser acessa aqui [Acessar Planilha]('https://docs.google.com/spreadsheets/d/1rduPTL7Xy8Fappm62YN7jalKRQCrMBkTPB-dpRe2-P8/edit?usp=sharing'). Porém, abaixo existe parte das análises, contendo o tempo que cada Sort levou com cada tamanho de memória:
+A planilha com os registros de tempo e análise pode ser acessa aqui: [Acessar Planilha](https://docs.google.com/spreadsheets/d/1rduPTL7Xy8Fappm62YN7jalKRQCrMBkTPB-dpRe2-P8/edit?usp=sharing). Porém, abaixo existe parte das análises, contendo o tempo que cada Sort levou com cada tamanho de memória:
 
 |Nome       |100|1000|10000|100000|1000000|
 |-----------|---|----|-----|------|-------|
