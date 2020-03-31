@@ -53,3 +53,34 @@ int * selectionSort(int elements[], int size) {
 
   return elements;
 }
+
+void quickSortSub(int elements[], int start, int end){
+  int pivot, aux, i, j, mid;
+
+  i = start;
+  j = end;
+
+  mid = (int) ((i + j) / 2);
+  pivot = elements[mid];
+
+  do{
+    while (elements[i] < pivot) i = i + 1;
+    while (elements[j] > pivot) j = j - 1;
+
+    if(i <= j){
+      aux = elements[i];
+      elements[i] = elements[j];
+      elements[j] = aux;
+      i = i + 1;
+      j = j - 1;
+    }
+  } while (j > i);
+
+  if (start < j) quickSortSub(elements, start, j);
+  if (i < end) quickSortSub(elements, i, end);
+}
+
+int * quickSort(int elements[], int size) {
+  quickSortSub(elements, 0, size - 1);
+  return elements;
+}

@@ -4,14 +4,17 @@
 #include "sorts.c"
 #include "utils.c"
 
-#define SIZE 50000
+#define SIZE 1000
 
 int main() {
 	int elements[SIZE];
 
-	createElements(elements, SIZE);
 	printf("That's a sort analysis using a array of elements with size: %d\n\n", SIZE);
+
+	createElements(elements, SIZE);
+
 	sortAnalytics(elements, "Bubble Sort", bubbleSort, SIZE);
-	sortAnalytics(elements, "Insertion Sort", insertionSort, SIZE);
 	sortAnalytics(elements, "Selection Sort", selectionSort, SIZE);
+	sortAnalytics(elements, "Insertion Sort", insertionSort, SIZE);
+	sortAnalytics(elements, "Quick Sort", quickSort, SIZE);
 }
