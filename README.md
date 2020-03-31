@@ -11,7 +11,7 @@ A planilha com os registros de tempo e análise pode ser acessa aqui [Acessar Pl
 
 |Nome       |100|1000|10000|100000|1000000|
 |-----------|---|----|-----|------|-------|
-|Bubble Sort| 0.000000s | 0.015625s | 0.312500s | 38.796875s | Infinite |
-|Selection Sort| 0.000000s | 0.000000s | 0.125000s | 13.734375s | Infinite |
-|Insertion Sort| 0.000000s | 0.000000s | 0.078125s | 7.484375s | Infinite |
+|Bubble Sort| 0.000000s | 0.015625s | 0.312500s | 38.796875s | 3863.937500s |
+|Selection Sort| 0.000000s | 0.000000s | 0.125000s | 13.734375s | 1367.734375s |
+|Insertion Sort| 0.000000s | 0.000000s | 0.078125s | 7.484375s | 840.046875s |
 |Quick Sort| 0.000000s | 0.000000s | 0.000000s | 0.015625s | 0.171875s |
